@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif; font-size: 14px;">
+    <h2 style="color: #333;">Dear ${recipientName},</h2>
+    <p style="color: #333;">We are delighted to inform you about your reservation confirmation with Mountain Hotel.</p>
+    <p style="color: #333;">Below are the details of your reservation:</p>
+    <ul style="color: #333;">
+        <li><strong>Reservation ID:</strong> ${reservationId}</li>
+        <li><strong>Name:</strong> ${guestName}</li>
+        <li><strong>Email:</strong> ${guestEmail}</li>
+        <li><strong>Check-in Date:</strong> ${checkInDate}</li>
+        <li><strong>Check-out Date:</strong> ${checkOutDate}</li>
+        <li><strong>Room Numbers:</strong> ${roomNumbers}</li>
+        <li><strong>Total Cost:</strong> ${totalCost}</li>
+    </ul>
+    <p style="color: #333;">Thank you for choosing Mountain Hotel. We look forward to welcoming you!</p>
+    <p style="color: #333;">Best Regards,<br/>Mountain Hotel Team</p>
+</div>
+</body>
+</html>
